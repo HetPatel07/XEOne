@@ -64,7 +64,7 @@ ul {
 li {
     float: left;
     font-size: 14px;
-    margin-right: 50px;
+    margin-right: 5%;
     color: #212331;
 }
 
@@ -106,7 +106,7 @@ li {
     font-family: 'Raleway', sans-serif;
     position: absolute;
     line-height: 62px;
-    top: 40%;
+    top: 35%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -388,13 +388,13 @@ li {
 .one-img{
     width: 87%;
     margin: auto;
-    position: relative;
-    top: 30px;
+    padding-top: 30px;
 }
 .bottom{
     background-color: #9bd230;
     width: 100%;
     height: 100px;
+    margin-top: -5px;
     box-sizing: border-box;
     padding-top: 30px;
     line-height: 30px;
