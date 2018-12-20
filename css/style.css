@@ -236,11 +236,12 @@ li {
 
 .features-right {
     float: right;
+    padding-top: 50px;
 }
 
 .features-right img {
-    position: relative;
-    top: 50px;
+    /* position: relative; */
+    /* top: 50px; */
 }
 
 
