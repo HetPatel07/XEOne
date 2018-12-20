@@ -375,7 +375,8 @@ li {
 
 /*images part*/
 .images-part{
-    overflow: auto
+    overflow: auto;
+    margin-top: 100px;
 }
 .inner-first{
     width: 33.33%;
