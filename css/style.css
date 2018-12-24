@@ -636,7 +636,7 @@ li {
     color: #a5a5a5;
 }
 
-.features-left .button {
+.button {
     display: table;
     height: 50px;
     margin-top: 40px;
@@ -647,7 +647,7 @@ li {
     border-radius: 50px;
 }
 
-.features-left a {
+a {
     display: table-cell;
     vertical-align: middle;
     color: #fff;
@@ -864,43 +864,47 @@ li {
 
 /*watch part */
 
-.watch{
+.watch {
     width: 100%;
     padding: 100px 0;
 }
 
-.watchMain{
+.watchMain {
     width: 75%;
     margin: auto;
     font-weight: 100;
 }
 
-.watchMain > .features-left > h2{
+.watchMain > .features-left > h2 {
     font-size: 20px;
     font-weight: 100;
 }
 
-.watchMain > .features-left > h1{
+.watchMain > .features-left > h1 {
     font-size: 50px;
     font-weight: 300;
 }
 
-.watchMain > .features-left > p{
+.watchMain > .features-left > p {
     margin-top: 40px;
     font-size: 14px;
 }
-.watchLeft{
+
+.watchLeft {
     width: 55%;
 }
-.watchRight{
+
+.watchRight {
     width: 40%;
     position: relative;
 }
-.watchMain > .watchRight > img{
+
+.watchMain > .watchRight > img {
     position: relative;
     bottom: 25px;
 }
-.watchMain > .watchRight > a{
+
+.watchMain > .watchRight > a {
     position: absolute;
     left: 0;
     right: 0;
@@ -916,6 +920,92 @@ li {
     color: #fff;
     text-align: center;
 }
-.watchMain > .watchRight > a:hover{
+
+.watchMain > .watchRight > a:hover {
     background-color: #00bcd4;
+}
+
+
+
+
+/*portfolio part*/
+.pf-change {
+    width: 80%;
+}
+
+.pf-change > p {
+    font-size: 15px;
+}
+
+.pf-nav {
+    width: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+.pf-nav ul {
+    width: 54%;
+    display: block;
+    overflow: auto;
+    margin: 50px auto;
+}
+
+.pf-nav ul li {
+    padding: 10px 20px;
+    color: #a5a5a5;
+    font-weight: 900;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 1px solid #a5a5a5;
+    display: inline-block;
+}
+
+.pf-nav ul li a {
+    color: #a5a5a5;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
+.pf-images {
+    width: 100%;
+    overflow: auto;
+}
+
+.pf-img1 {
+    width: 33.33%;
+    float: left;
+}
+
+.pf-inner {
+    height: 50%;
+
+}
+
+.pf-inner1 {
+    height: 50%;
+    margin-top: 5%;
+}
+
+.pf-one {
+    padding: 10px;
+    width: 95%;
+    height: 55%;
+    margin: auto;
+}
+
+.pf-two {
+    padding: 10px;
+    width: 95%;
+    height: 44%;
+    margin: auto;
+}
+
+.pfButton {
+    margin: auto;
+}
+
+.pfButton a:hover {
+    border-radius: inherit;
+    background-color: #9bd230;
 }
